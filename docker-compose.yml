@@ -1,0 +1,9 @@
+# docker-compose
+version: '3.7'
+services:
+  app:
+    build: .
+    command: echo 'Uno dos tress quatro'
+    volumes:
+        - ./:/home/node/app
+        - node_modules:/home/node/app/node_modules
