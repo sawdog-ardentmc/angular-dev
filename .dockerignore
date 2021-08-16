@@ -1,0 +1,9 @@
+# ignore files so they are not sent to build context
+.git
+.gitattributes
+.gitignore
+.npm
+.vscode
+docker-compose.yml
+Dockerfile
+node_modules
